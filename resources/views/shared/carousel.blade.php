@@ -11,7 +11,7 @@
             {{--
             <div class="container">
                 <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                    <h1 class="display-3">Heading One</h1>
+                    <h1 class="display-3">Heading One </h1>
                     <p class="lead mute">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis
                         ratione quod aliquid inventore vero perspiciatis.</p>
                     <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
