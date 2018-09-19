@@ -1,0 +1,356 @@
+/* GENERICO */
+body {
+    overflow-x: hidden;
+}
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.display-6 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.display-7 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/* NAV */
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+    border-left: #3490dc 1px solid;
+}
+
+#sumaLogo {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+/* CAROUSEL */
+.carousel-item {
+    height: 450px;
+}
+
+.fondo {
+    /* background: rgba(150, 150, 150, 0.3); */
+    /* text-shadow: 1px 1px 0.5px rgb(52, 144, 220); */
+    color: #3490dc;
+}
+
+.textoFondoTitulo {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #3490dc;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* border: 2px solid rgba(255, 255, 255, 0.6); */
+    border-radius: 25px;
+    padding: 3px;
+}
+.textoFondo {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #3490dc;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* border: 2px solid rgba(255, 255, 255, 0.6); */
+    border-radius: 25px;
+    padding: 3px;
+}
+
+.carousel-control-prev {
+    background-image: -webkit-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0.5) 0,
+        rgba(0, 0, 0, 0.0001) 100%
+    );
+    background-image: -o-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0.5) 0,
+        rgba(0, 0, 0, 0.0001) 100%
+    );
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(0, 0, 0, 0.5)),
+        to(rgba(0, 0, 0, 0.0001))
+    );
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5) 0,
+        rgba(0, 0, 0, 0.0001) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-control-next {
+    background-image: -webkit-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0.0001) 0,
+        rgba(0, 0, 0, 0.5) 100%
+    );
+    background-image: -o-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0.0001) 0,
+        rgba(0, 0, 0, 0.5) 100%
+    );
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(0, 0, 0, 0.0001)),
+        to(rgba(0, 0, 0, 0.5))
+    );
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.0001) 0,
+        rgba(0, 0, 0, 0.5) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-image-1 {
+    background: url('../img/LOGO_SUMA_1200x400.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+}
+
+/* Contabilidad */
+.carousel-image-2 {
+    background: url('../img/rawpixel-252130-unsplashRedim.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -400px;
+}
+
+.carousel-caption-2 {
+    position: absolute;
+    left: 15%;
+    top: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+/* Fiscalidad */
+.carousel-image-3 {
+    background: url('../img/carlos-muza-84523-unsplashRedim.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position-y: 30%; */
+    background-size: cover;
+}
+
+/* Administracion */
+.carousel-image-4 {
+    background: url('../img/estee-janssens-396887-unsplashRedim.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+/* Consultoria */
+.carousel-image-5 {
+    background: url('../img/rawpixel-570911-unsplashRedim.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+/* HEADS y SECTIONS HOME */
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 150, 201, 0.7);
+    /* background: rgba(100, 100, 100, 0.7); */
+}
+
+#preparado-heading,
+#queofrecemos-head-section,
+#financiera-head-section,
+#contable-head-section,
+#fiscal-head-section,
+#mercantil-head-section,
+#administracion-head-section,
+#consultoria-head-section {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/attach-2092_1920.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    background-position-x: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* EQUIPO */
+#equipo-header {
+    height: 450px;
+    background: url('../img/rawpixel-653764-unsplashRedim.jpg');
+    background-size: cover;
+    background-position-y: 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#equipo-header h3 {
+    padding-top: 300px;
+}
+
+/* CLIENTES */
+#clientes-header {
+    height: 450px;
+    background: url('../img/rawpixel-974545-unsplashRedim.jpg');
+    background-size: cover;
+    background-position-y: 80%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#clientes-header h3 {
+    padding-top: 300px;
+}
+
+#clientes img {
+    width: 90%;
+}
+
+/* CONTACT */
+#contacto-header {
+    height: 450px;
+    background: url('../img/milkovi-444287-unsplashRedim.jpg');
+    background-size: cover;
+    background-position-y: 80%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#contacto-section {
+    height: 960px;
+    background: url('../img/DSC_0943FondoRedim.jpg');
+    background-size: cover;
+    background-position-y: 70%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#contacto-header h3 {
+    padding-top: 300px;
+}
+
+#contacto-datos {
+    background: rgba(255, 255, 255, 0.7);
+    border: #fff 2px solid;
+    border-radius: 10px;
+    margin-top: 15%;
+}
+
+/* FOOTER */
+#main-footer {
+    background: rgb(42, 150, 201);
+}
+
+#main-footer a,
+#main-footer a:hover {
+    color: #fff;
+}
+
+/* Botón subir */
+.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.go-top:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* The given screen size or smaller */
+/* Extra small devices (portrait phones)*/
+@media (max-width: 575px) {
+    #sumaLogo {
+        position: absolute;
+        top: 0;
+        max-height: 30px;
+    }
+
+    .carousel-item {
+        height: 150px;
+    }
+
+    #home-icons h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 768px) {
+    #sumaLogo {
+        position: absolute;
+        top: 0;
+        max-height: 45px;
+    }
+
+    .carousel-item {
+        height: 200px;
+    }
+
+    #home-icons h3 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+}
+
+/* Medium devices (tablets)*/
+@media (max-width: 200px) {
+    #sumaLogo {
+        position: absolute;
+        top: 0;
+        max-height: 45px;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+
+    #home-icons h3 {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+}
