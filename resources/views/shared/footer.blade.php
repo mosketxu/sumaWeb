@@ -3,12 +3,12 @@
 <footer id="main-footer" class="{{ $pieFijo }}">
     <div class="container">
         <div class="row">
-            <div class="col py-3 text-white">
-                <h4 class="">Suma Apoyo Empresarial</h4>
-                <h5><a href="mailto:info@sumaempresa.com" class="text-white">info@sumaempresa.com</a></h5>
-                <div class="d-flex justify-content-between text-center p-0 m-0">
-                    <p class="">Copyright &copy; <span id="year"></span> </p>
-                    <a class="text-right " href={{ route( 'politica') }}>
+            <div class="col text-white">
+                <h4 class="m-0 p-0">Suma Apoyo Empresarial</h4>
+                <h5><a href="mailto:info@sumaempresa.com" class="text-white m-0 p-0">info@sumaempresa.com</a></h5>
+                <div class="d-flex justify-content-between text-center m-0 p-0">
+                    <p class="m-0 p-0">Copyright &copy; <span id="year"></span> </p>
+                    <a class="text-right m-0 p-0" href={{ route( 'politica') }}>
                         <span>Politica de seguridad</span>
                     </a>
 
