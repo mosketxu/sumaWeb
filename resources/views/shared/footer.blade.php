@@ -57,6 +57,7 @@
     });
 
     // Init Scrollspy
+    {{-- $('body').scrollspy({ target: '#main-nav' }); --}}
     $('body').scrollspy({ target: '#main-nav' });
 
     // Smooth Scrolling

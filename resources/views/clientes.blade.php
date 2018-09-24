@@ -21,14 +21,14 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="display-4 text-primary">Nuestros clientes</h1>
-                <p class="text-muted m-0 p-0 mb-1">
+                <h1 class="display-4 text-primary mb-5">Nuestros clientes</h1>
+                <p class="text-muted text-justify m-0 p-0 mb-1">
                     En Suma Apoyo Empresarial contamos con experiencia en todo tipo de clientes sin importar su tamaño, prestando nuestros servicios
                     tanto a profesionales como a PYME´s.</p>
-                <p class="text-muted m-0 p-0 mb-1">
+                <p class="text-muted text-justify m-0 p-0 mb-1">
                     La satisfacción que nos muestran y la confianza que nos transmiten nuestros clientes es nuestra mejor tarjeta de presentación.
                 </p>
-                <p class="text-muted m-0 p-0">En una sociedad global como la nuestra, el idioma no es un obstaculo, y contamos entre nuestros clientes
+                <p class="text-muted text-justify m-0 p-0 mb-1">En una sociedad global como la nuestra, el idioma no es un obstaculo, y contamos entre nuestros clientes
                     a empresas de toda Europa, facilitando a las mismas su adaptación a los requerimientos establecidos por
                     la legislación española.</p>
 
@@ -42,7 +42,7 @@
 
 
 <!-- CLIENTES -->
-<section id="clientes" class="my-5 text-center">
+<section id="clientes" class="my-3  text-center">
     <div class="container">
         <div class="row">
             <div class="col">

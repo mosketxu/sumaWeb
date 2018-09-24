@@ -6,9 +6,10 @@
 
 <!-- CAROUSEL SLIDER -->
 
+{{--
 <section id="showcase">
     @include('shared.carousel')
-</section>
+</section> --}}
 
 <!--HOME ICON SECTION  -->
 <section id="home-icons" class="p-3 mt-3">
@@ -42,19 +43,16 @@
 
 <section id="preparado-heading" class="p-3">
     <div class="dark-overlay">
-        <div class="row">
-            <div class="col">
-                <div class="container pt-5">
-                    <h1 class="display-4">Conócenos</h1>
-                    <p class="d-none d-md-block">Somos más que un servicio.</p>
-                </div>
+        <div class="col">
+            <div class="container pt-5">
+                <h1 class="display-4">Conócenos</h1>
+                <p class="d-none d-md-block">Somos más que un servicio.</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- PREPARADO SECTION -->
-
 <section id="preparado" class="p-3 bloqueSeccion">
     <div class="container">
         <div class="row">
@@ -80,19 +78,16 @@
 <!-- QUE OFRECEMOS HEADING SECTION -->
 <section id="queofrecemos-head-section" class="p-3">
     <div class="dark-overlay">
-        <div class="row">
-            <div class="col">
-                <div class="container pt-5">
-                    <h1 class="display-4">Qué ofrecemos</h1>
-                    <p class="d-none d-md-block">Somos expecialistas en múltiples áreas.</p>
-                </div>
+        <div class="col">
+            <div class="container pt-5">
+                <h1 class="display-4">Qué ofrecemos</h1>
+                <p class="d-none d-md-block">Somos expecialistas en múltiples áreas.</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- QUE OFRECEMOS SECTION -->
-
 <section id="queofrecemos-section" class="p-3 bloqueSeccion">
     <div class="container">
         <div class="row">
@@ -173,14 +168,13 @@
 </section>
 
 <!-- FINANCIERA HEAD -->
+<a name="xxx"></a>
 <section id="financiera-head-section" class="p-3">
     <div class="dark-overlay">
-        <div class="row">
-            <div class="col">
-                <div class="container pt-5">
-                    <h1 class="display-4">Área Financiera</h1>
-                    <p class="d-none d-md-block">La información financiera es fundamental en la toma de decisiones.</p>
-                </div>
+        <div class="col">
+            <div class="container pt-5">
+                <h1 class="display-4">Área Financiera</h1>
+                <p class="d-none d-md-block">La información financiera es fundamental en la toma de decisiones.</p>
             </div>
         </div>
     </div>
@@ -260,12 +254,10 @@
 <!-- CONTABLE HEADING SECTION -->
 <section id="contable-head-section" class="p-3">
     <div class="dark-overlay">
-        <div class="row">
-            <div class="col">
-                <div class="container pt-5">
-                    <h1 class="display-4">Área Contable</h1>
-                    <p class="d-none d-md-block">La contabilidad es una herramienta básica en la gestión empresarial</p>
-                </div>
+        <div class="col">
+            <div class="container pt-5">
+                <h1 class="display-4">Área Contable</h1>
+                <p class="d-none d-md-block">La contabilidad es una herramienta básica en la gestión empresarial</p>
             </div>
         </div>
     </div>
@@ -347,12 +339,10 @@
 <!-- FISCAL HEAD -->
 <section id="fiscal-head-section" class="p-3">
     <div class="dark-overlay">
-        <div class="row">
-            <div class="col">
-                <div class="container pt-5">
-                    <h1 class="display-4">Área Fiscal</h1>
-                    <p class="d-none d-md-block">Las obligaciones fiscales deben cumplirse puntual y correctamente</p>
-                </div>
+        <div class="col">
+            <div class="container pt-5">
+                <h1 class="display-4">Área Fiscal</h1>
+                <p class="d-none d-md-block">Las obligaciones fiscales deben cumplirse puntual y correctamente</p>
             </div>
         </div>
     </div>
@@ -432,12 +422,10 @@
 <!-- MERCANTIL HEADING SECTION -->
 <section id="mercantil-head-section" class="p-3">
     <div class="dark-overlay">
-        <div class="row">
-            <div class="col">
-                <div class="container pt-5">
-                    <h1 class="display-4">Área Mercantil</h1>
-                    <p class="d-none d-md-block">La información mercantil es pública, por lo que debe ser totalmente fiable</p>
-                </div>
+        <div class="col">
+            <div class="container pt-5">
+                <h1 class="display-4">Área Mercantil</h1>
+                <p class="d-none d-md-block">La información mercantil es pública, por lo que debe ser totalmente fiable</p>
             </div>
         </div>
     </div>
@@ -487,12 +475,10 @@
 <!-- ADMINISTRACION HEAD -->
 <section id="administracion-head-section" class="p-3">
     <div class="dark-overlay">
-        <div class="row">
-            <div class="col">
-                <div class="container pt-5">
-                    <h1 class="display-4">Administración</h1>
-                    <p class="d-none d-md-block">Una correcta gestión de la documentación aporta eficiencia a nuestro trabajo.</p>
-                </div>
+        <div class="col">
+            <div class="container pt-5">
+                <h1 class="display-4">Administración</h1>
+                <p class="d-none d-md-block">Una correcta gestión de la documentación aporta eficiencia a nuestro trabajo.</p>
             </div>
         </div>
     </div>
@@ -572,12 +558,10 @@
 <!-- CONSULTORIA HEADING SECTION -->
 <section id="consultoria-head-section" class="p-3">
     <div class="dark-overlay">
-        <div class="row">
-            <div class="col">
-                <div class="container pt-5">
-                    <h1 class="display-4">Consultoría y Recursos Humanos</h1>
-                    <p class="d-none d-lg-block">Un circuito bien diseñado optimiza los procedimientos empresariales</p>
-                </div>
+        <div class="col">
+            <div class="container pt-5">
+                <h1 class="display-4">Consultoría y Recursos Humanos</h1>
+                <p class="d-none d-lg-block">Un circuito bien diseñado optimiza los procedimientos empresariales</p>
             </div>
         </div>
     </div>

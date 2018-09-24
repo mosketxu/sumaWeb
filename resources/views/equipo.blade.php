@@ -45,7 +45,7 @@
         <div class="row mb-3">
             <div class="col-md-6 d-flex">
                 <div class="card">
-                    <div class="card-title">
+                    <div class="card-title mt-3">
                         <img src="{{ asset('img/DSC_0894Marta3Redim.jpg')}}" alt="Marta Ruiz" class="img-fluid rounded-circle w-50 mb-3">
                         <h3>Marta Ruiz</h3>
                     </div>
@@ -68,7 +68,7 @@
             </div>
             <div class="col-md-6 d-flex">
                 <div class="card">
-                    <div class="card-title">
+                    <div class="card-title mt-3">
                         <img src="{{ asset('img/person2.jpg')}}" alt="Susana Ruiz" class="img-fluid rounded-circle w-50 mb-3">
                         <h3>Susana Martinez</h3>
                     </div>
@@ -94,7 +94,7 @@
         <div class="row mb-3">
             <div class="col-md-6 d-flex">
                 <div class="card">
-                    <div class="card-title">
+                    <div class="card-title mt-3">
                         <img src="{{ asset('img/DSC_0827AlexRedim.jpg')}}" alt="Alexander Arregui" class="img-fluid rounded-circle w-50 mb-3">
                         <h3>Alexander Arregui</h3>
                     </div>
@@ -119,7 +119,7 @@
             </div>
             <div class="col-md-6 d-flex">
                 <div class="card">
-                    <div class="card-title">
+                    <div class="card-title mt-3">
                         <img src="{{ asset('img/DSC_0940DolorsRedim.jpg')}}" alt="Dolors Celdrán" class="img-fluid rounded-circle w-50 mb-3">
                         <h3>Dolors Celdrán</h3>
                     </div>
@@ -146,7 +146,7 @@
         <div class="row mb-3">
             <div class="col-md-6 offset-md-3 d-flex">
                 <div class="card">
-                    <div class="card-title">
+                    <div class="card-title mt-3">
                         <img src="{{ asset('img/MiriamDSC_0806Redim.jpg')}}" alt="Miriam Marin" class="img-fluid rounded-circle w-50 mb-3">
                         <h3>Miriam Marin</h3>
                     </div>

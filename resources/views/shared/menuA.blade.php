@@ -2,6 +2,7 @@
     <a href="#" class="nav-link text-primary dropdown-toggle" data-toggle="dropdown">Servicios</a>
     <div class="dropdown-menu">
         <a href="{{ route( 'suma', '#queofrecemos-head-section')}}" class="dropdown-item">Qué ofrecemos</a>
+        <!-- <a href="{{ url('/xxx') }}" class="dropdown-item">Qué ofrecemos</a> -->
         <a href="{{ route( 'suma', '#financiera-head-section')}}" class="dropdown-item">Área Financiera</a>
         <a href="{{ route( 'suma', '#contable-head-section')}}" class="dropdown-item">Área Contable</a>
         <a href="{{ route( 'suma', '#fiscal-head-section')}}" class="dropdown-item">Área Fiscal</a>
