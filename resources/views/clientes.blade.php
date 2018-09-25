@@ -46,7 +46,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h3 class="display-5 text-left text-muted">Una muestra de clientes que confían en nosotros:</h3>
+                <h3 class="display-4 text-left text-muted">estos clientes ya confían en nosotros:</h3>
             </div>
         </div>
     </div>

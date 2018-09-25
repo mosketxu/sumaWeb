@@ -21,7 +21,24 @@ body {
     line-height: 1.4;
 }
 
+.display-8 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-9 {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+
 /* NAV */
+.navbar {
+    border-bottom: #3490dc 2px solid;
+}
+
 .navbar .nav-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -45,8 +62,6 @@ body {
 }
 
 .fondo {
-    /* background: rgba(150, 150, 150, 0.3); */
-    /* text-shadow: 1px 1px 0.5px rgb(52, 144, 220); */
     color: #3490dc;
 }
 
@@ -56,7 +71,6 @@ body {
     line-height: 1.2;
     color: #3490dc;
     background-color: rgba(255, 255, 255, 0.7);
-    /* border: 2px solid rgba(255, 255, 255, 0.6); */
     border-radius: 25px;
     padding: 3px;
 }
@@ -67,7 +81,6 @@ body {
     line-height: 1;
     color: #3490dc;
     background-color: rgba(255, 255, 255, 0.7);
-    /* border: 2px solid rgba(255, 255, 255, 0.6); */
     border-radius: 25px;
     padding: 3px;
 }
@@ -172,7 +185,6 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(42, 150, 201, 0.7);
-    /* background: rgba(100, 100, 100, 0.7); */
 }
 
 #preparado-heading,
@@ -199,8 +211,9 @@ body {
     height: 450px;
     background: url('../img/rawpixel-653764-unsplashRedim.jpg');
     background-size: cover;
+    background-position-x: center;
     background-position-y: 50%;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
 }
 
@@ -213,8 +226,9 @@ body {
     height: 450px;
     background: url('../img/rawpixel-974545-unsplashRedim.jpg');
     background-size: cover;
-    background-position-y: 80%;
-    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: 50%;
+    background-attachment: scroll;
     background-repeat: no-repeat;
 }
 
@@ -231,6 +245,7 @@ body {
     height: 450px;
     background: url('../img/milkovi-444287-unsplashRedim.jpg');
     background-size: cover;
+    background-position-x: center;
     background-position-y: 80%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -240,6 +255,7 @@ body {
     height: 960px;
     background: url('../img/DSC_0943FondoRedim.jpg');
     background-size: cover;
+    background-position-x: center;
     background-position-y: 70%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -285,28 +301,12 @@ body {
 
 /* The given screen size or smaller */
 /* Extra small devices (portrait phones)*/
-@media (max-width: 575px) {
+
+
+@media (max-width: 580px) {
     #sumaLogo {
         position: absolute;
-        top: 0;
-        max-height: 30px;
-    }
-
-    .carousel-item {
-        height: 150px;
-    }
-
-    #home-icons h3 {
-        font-size: 1.5rem;
-        font-weight: 400;
-        line-height: 1.4;
-    }
-}
-
-@media (max-width: 768px) {
-    #sumaLogo {
-        position: absolute;
-        top: 0;
+        top: 5px;
         max-height: 45px;
     }
 
@@ -319,23 +319,51 @@ body {
         font-weight: 400;
         line-height: 1.4;
     }
-}
 
-/* Medium devices (tablets)*/
-@media (max-width: 200px) {
-    #sumaLogo {
-        position: absolute;
-        top: 0;
-        max-height: 45px;
+
+    .display-4 {
+        font-size: 2rem;
     }
 
-    .carousel-item {
+    .display-6 {
+        font-size: 1.5rem;
+    }
+
+    #equipo-header,
+    #clientes-header,
+    #contacto-header {
         height: 300px;
     }
 
-    #home-icons h3 {
-        font-size: 1.6rem;
-        font-weight: 400;
-        line-height: 1.4;
+    .textoFondoTitulo {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        color: #3490dc;
+        border-radius: 25px;
+        padding: 3px;
+    }
+
+
+    .carousel-image-1 {
+        background: url('../img/LOGO_SUMA_1200x400.jpg');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 75%;
+        background-size: 80%;
+    }
+
+    /* Contabilidad */
+    .carousel-image-2 {
+        background: url('../img/rawpixel-252130-unsplashRedim.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-position-y: -400px; */
+        background-size: cover;
+    }
+
+    .flechita {
+        margin-top: 50px;
+
     }
 }

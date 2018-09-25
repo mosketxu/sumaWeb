@@ -21,7 +21,7 @@
 
         <div class="carousel-item carousel-image-2">
             <div class="container d-flex">
-                <div class="carousel-caption d-none d-sm-block text-left mb-3">
+                <div class="carousel-caption text-left mb-3">
                     <h3 class="display-3"><span class="textoFondoTitulo">Contabilidad</span></h3>
                     <p class="lead d-none d-md-block"><span class="textoFondo">Mantenemos una imagen fiel y veraz del estado de tu negocio.</span></p>
                 </div>
@@ -30,7 +30,7 @@
 
         <div class="carousel-item carousel-image-3">
             <div class="container">
-                <div class="carousel-caption d-none d-sm-block text-right mb-3">
+                <div class="carousel-caption text-right mb-3">
                     <h3 class="display-3"><span class="textoFondoTitulo">Fiscalidad</h3>
                     <p class="lead d-none d-md-block"><span class="textoFondo">Te asesoramos en los aspectos legales.</span></p>
                 </div>
@@ -38,7 +38,7 @@
         </div>
         <div class="carousel-item carousel-image-4">
             <div class="container">
-                <div class="carousel-caption-2 d-none d-sm-block text-left mt-3">
+                <div class="carousel-caption-2 text-left mt-3">
                     <h3 class="display-3"><span class="textoFondoTitulo">Administración</h3>
                     <p class="lead d-none d-md-block"><span class="textoFondo">Te ayudamos con tus tareas diarias para que te centres en tus objetivos.</span></p>
                 </div>
@@ -46,7 +46,7 @@
         </div>
         <div class="carousel-item carousel-image-5">
             <div class="container">
-                <div class="carousel-caption-2 d-none d-sm-block text-left mt-3">
+                <div class="carousel-caption-2 text-left mt-3">
                     <h3 class="display-3"><span class="textoFondoTitulo">Consultoria</h3>
                     <p class="lead d-none d-md-block"><span class="textoFondo">Analizamos tus procesos en busca de la mejora.</span></p>
                 </div>
@@ -54,11 +54,11 @@
         </div>
     </div>
 
-    <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+    <a href="#myCarousel" data-slide="prev" class="carousel-control-prev flechita">
             <span class="carousel-control-prev-icon text-primary"></span>
     </a>
 
-    <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+    <a href="#myCarousel" data-slide="next" class="carousel-control-next flechita">
             <span class="carousel-control-next-icon"></span>
     </a>
 

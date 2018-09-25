@@ -2,14 +2,13 @@
     @include('shared.headLayout')
 
 <!-- Menu-->
-    @include('shared.menuSuma')
+    @include('shared.menu')
 
 <!-- CAROUSEL SLIDER -->
 
-{{--
 <section id="showcase">
     @include('shared.carousel')
-</section> --}}
+</section>
 
 <!--HOME ICON SECTION  -->
 <section id="home-icons" class="p-3 mt-3">
